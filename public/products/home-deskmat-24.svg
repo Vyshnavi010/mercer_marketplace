@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sh" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <rect width="400" height="300" fill="url(#spot)"/>
+  <ellipse cx="200" cy="246" rx="112" ry="18" fill="url(#sh)"/>
+  
+    <polygon points="74,174 160,114 326,114 256,194" fill="#64748b"/>
+    <polygon points="80,170 162,118 320,118 254,188" fill="#475569"/>
+    <rect x="150" y="138" width="68" height="24" rx="4" fill="#e2e8f0" opacity="0.5"/>
+    <ellipse cx="248" cy="150" rx="12" ry="8" fill="#e2e8f0" opacity="0.6"/>
+  
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4f4f5"/>
+      <stop offset="100%" stop-color="#e4e4e7"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sh" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#18181b" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#18181b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <rect width="400" height="300" fill="url(#spot)"/>
+  <ellipse cx="200" cy="246" rx="112" ry="18" fill="url(#sh)"/>
+  
+    <path d="M168 64 C180 48, 220 48, 232 64 L264 82 L302 128 L278 172 L254 152 L254 228 L146 228 L146 152 L122 172 L98 128 L136 82 Z" fill="#1e3a8a"/>
+    <path d="M168 64 L200 94 L232 64" fill="#172554"/>
+    <line x1="200" y1="94" x2="200" y2="228" stroke="#0f172a" stroke-width="3"/>
+    <line x1="164" y1="138" x2="184" y2="168" stroke="#93c5fd" stroke-width="3" stroke-linecap="round"/>
+    <line x1="236" y1="138" x2="216" y2="168" stroke="#93c5fd" stroke-width="3" stroke-linecap="round"/>
+  
+</svg>

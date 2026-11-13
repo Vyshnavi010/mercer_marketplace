@@ -1,0 +1,6 @@
+{
+  "name": "Mercer Supply — Marketplace Catalog",
+  "description": "High-traffic marketplace storefront featuring a multi-filter sidebar with category checklist, dual-point price range slider, minimum star rating filter, and instant sorting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

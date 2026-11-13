@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sh" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <rect width="400" height="300" fill="url(#spot)"/>
+  <ellipse cx="200" cy="246" rx="112" ry="18" fill="url(#sh)"/>
+  
+    <ellipse cx="200" cy="224" rx="56" ry="12" fill="#1e293b"/>
+    <line x1="176" y1="222" x2="152" y2="126" stroke="#334155" stroke-width="9" stroke-linecap="round"/>
+    <line x1="152" y1="126" x2="238" y2="86" stroke="#475569" stroke-width="8" stroke-linecap="round"/>
+    <path d="M214 78 L272 96 L262 114 L206 94 Z" fill="#0f172a"/>
+    <polygon points="212,96 262,114 294,218 184,218" fill="#fef08a" opacity="0.22"/>
+  
+</svg>
